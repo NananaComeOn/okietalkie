@@ -11007,6 +11007,9 @@ img {
   color: #FF6043;
   text-decoration: underline;
 }
+.share-page .masthead::before {
+  pointer-events: none;
+}
 /* 手機版：改為直排，且調整順序 */
 @media (max-width: 768px) {
   .visual-wrapper {
