@@ -10968,6 +10968,10 @@ img.home-right {
     bottom: 0;
     z-index: 999;
   }
+  .more-space {
+  margin: 150px;
+  height: 300px;
+}
 }
 img {
   max-width: 100%;
@@ -11143,6 +11147,9 @@ img {
   font-weight: 700;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
+}
+.more-space {
+  height: 100px;
 }
 }
 /* 讓 footer 貼底但不遮住內容 */
